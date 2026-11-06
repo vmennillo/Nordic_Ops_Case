@@ -22,7 +22,7 @@ Data Pipeline:
 
 Dashboard structure:
 Page 1.
-Delivery performance:
+Supply chain:
 -KPIs: OTD%, AVG delay days, Fill rate%
 -Least performing suppliers bar chart (target: 85%)
 -OTD% per each site
