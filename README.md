@@ -23,23 +23,23 @@ Data Pipeline:
 Dashboard structure:
 Page 1.
 Supply chain:
--KPIs: OTD%, AVG delay days, Fill rate%
--Least performing suppliers bar chart (target: 85%)
--OTD% per each site
--Filter by country and category
+- KPIs: OTD%, AVG delay days, Fill rate%
+- Least performing suppliers bar chart (target: 85%)
+- OTD% per each site
+- Filter by country and category
 Page 2.
 Delay cost:
--KPIs: total delay cost, delay cost as % of value
--Delay cost per site
--Scatter plot of OTD% against delay cost per supplier, and total orders
--Matrix of delay cost per site and category
+- KPIs: total delay cost, delay cost as % of value
+- Delay cost per site
+- Scatter plot of OTD% against delay cost per supplier, and total orders
+- Matrix of delay cost per site and category
 
 (Some) Findings:
--OTD is 82,6%, below the target(85%)
--The average delay is 6 days, and almost 97% of the orders get delivered
--The total delay cost is more than 176.000 euros, which is about 0.43% of the total order value
--The Nordics perform better than the Baltics, and performance drops during the winter months
--Copenhagen has the highest impact in terms of delay cost
+- OTD is 82,6%, below the target(85%)
+- The average delay is 6 days, and almost 97% of the orders get delivered
+- The total delay cost is more than 176.000 euros, which is about 0.43% of the total order value
+- The Nordics perform better than the Baltics, and performance drops during the winter months
+- Copenhagen has the highest impact in terms of delay cost
 
 Tools:
 PowerBI, Python, ASW S3, Athena/SQL
